@@ -1,0 +1,656 @@
+/* Media */
+
+
+@media print {
+    /* هنا الخصاآص هيجين فقط عند الطباعة */
+    p {
+        color: red;
+        font-size: 40px
+    }
+}
+
+@media screen {
+    p { /* هنا عند الطباعة الخصاآص هيروحن */
+        color: red;
+        font-size: 40px
+    }
+}
+
+@media all {
+    p{ /* عند الطباعة عيضل الخصاآص زي مهنا */
+        color: red;
+    font-size: 40px
+    }
+}
+
+
+
+
+
+/* Attributs */
+
+/* a[title="Testing"]{
+    color: aqua;
+    font-size: 19px
+}
+img[alt="IMG"]{
+    border-radius: 20px
+}
+input{
+    display: block;
+    margin: 10px 0;
+    padding: 10px
+}
+input[type="search"]{
+color: aqua;
+    border-radius: 20px;
+    border-color: blue
+}*/
+
+/* Psedo Classes */
+
+/* p:first-letter{
+    font-size: 30px;
+    background-color: red;
+    color: white;
+    margin: 0 10px 0 0  ;
+    border-radius: 50px;
+    padding: 0 10px;
+    font-weight: 800;
+    display: block
+} 
+ 
+p:first-line {
+    color: aqua;
+    font-weight: bold
+} */
+
+/* OutLine */
+
+/* div{
+    background-color: brown;
+    width: 300px;
+    padding: 10px;
+    border:5px solid ;
+    outline: 10px solid #fff
+    
+} */
+
+/* Cursor */
+
+/*div{
+    cursor: no-drop
+}
+
+a{
+    cursor: col-resize
+} */
+
+/* Content */
+
+/* لا يشتغل الا مع البيفور والافتر  */
+
+/* لما اجي احدد موش هيتحدت الكام دا بتاع درس اليوم */
+
+/*div:after {
+    content: "This Is From Css";
+    color: blueviolet;
+
+}
+
+div {
+    color: blue
+}
+
+div:before {
+    content: "This Is From Css";
+    color: darkgoldenrod;
+
+}
+
+div {
+    color: blue
+}
+
+*/
+
+/*Z-Index*/
+
+/*.div1{
+    background-color: brown;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    color: aqua;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 4
+}
+
+.div2{
+    background-color: cornflowerblue;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    color: olivedrab;
+    position: absolute;
+    top:20px;
+    left: 20px;
+    z-index: 7
+}
+
+.div3{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    color: yellow;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    z-index: 6
+}
+*/
+
+/*Visiblity*/
+
+/*div{
+    width: 300px;
+    background-color: antiquewhite;
+    padding: 10px;
+    float: left;
+    margin: 10px
+}
+.visibl{
+    display:none; /* هنا العنصر حيختفي خالص والعنصر الي قبلو هييجي مكانو */
+
+/*   visibility: visible; /*هنا القيمة الافتراضية ومش هيصير اشي*/
+
+/*   visibility: hidden /* هنا العنصر هيختفي ولكن مكانو هيضل موجود */
+
+/*}
+
+
+
+/*Over Flow */
+
+/*div {
+    height: 50px;
+    width: 100px;
+    background-color: aqua;
+    padding: 10px;
+    overflow: visible;/* القيمة الافتراضية */
+
+/* overflow: hidden;/*اخفاء الكلام الزاآد*/
+
+/*  overflow: scroll;/*هيعمل سكرول على الجانبين الافقي و العمودي حتى لو م كان في كلام زاآد*/
+
+/*  overflow: auto/* هنا بشكل تلقاآي هيحط سكرول او لاء */
+
+/*}
+
+
+
+/* Nesting */
+
+/*.continer,.an
+{
+    background-color: blue;
+    width: 500px;
+    padding: 10px;
+    margin: 10px
+}
+/* هنا لو كان في ديف ويحنوي على كلاس بقدر من هاد الكلاس انو اسك كل عنصر واعطيه بعض الخصاآص*/
+
+/*.an p , .continer p{
+    color: salmon  ; 
+    font-size: 31px
+}
+.continer p{
+    color: red ;    
+}
+
+
+
+
+
+
+
+
+/*.one,.tow,.three,.four{
+     background-color: blue;
+    margin: 10px;
+    padding: 10px;
+    font-weight: 700;
+    width: 300px;
+    float: left;
+    font-size: 1em
+}
+
+.one{
+    background-color: blue;
+   
+} 
+ 
+.tow{
+    background-color: red;
+    
+    
+}
+
+.three{
+    background-color: crimson;
+   font-size: 2em
+}
+
+.four{
+    background-color: darkgoldenrod;
+    
+} */
+
+/* Float */
+
+/* .left{
+    background-color: blue;
+    width: 300px;
+    padding:10px;
+    margin:10px;
+    float:left/*  هنا العناصر هيترتبن جنب بعض مش كل وحدة في سطر جديد لكن هيترتب من اليسار*/
+
+/*}
+.left span{
+   float: right/* هنا العناصر هيترتبن جنب بعض مش كل وحدة في سطر جديد هنا من اليمين */
+
+/*}
+.clear{
+    clear: both /*هنا بشيل الفلوت الي فوق وبمشي الكود بشكل طبيعي*/
+
+/*}
+
+
+
+/* Position  */
+
+/*.relativ{
+    padding: 10px;
+    background-color: black;
+    color: white;
+ /*   position: static ;/* لقيمة الافتراضية */
+
+/*  position: fixed;   /*تضل مكانو الديف حتى لما انزل تحت بضل ثابت */
+
+/* top: 10px ;/*نزلو من تحت فوق في هاد القيمة */
+
+/*  right: 50px; /*نزلو من تحت يمين في هاد القيمة */
+
+/* left: 350px; /*نزلو من تحت اليسار في هاد القيمة */
+
+/* bottom: auto ;/*نزلو من تحت اسفل في هاد القيمة */
+
+/*  position: relative; /* نستطيع ان ننفل هاد النص بسهولة */
+
+/*    text-align: center;
+    width: 300px
+}*/
+
+/* .parint{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    height: 600px;
+    width: 400px;
+    margin: auto;
+    text-align: center;
+    position: relative
+}
+/*.abc{
+    background-color: blue;
+    
+    top: 50px;
+    right: 100px;
+    /* هنا لو استخدم زي هيك هيضل الديف الصغير جوا الكبير ومش هيطلع منو */
+
+/*}
+
+
+
+
+
+/* Disblay */
+
+/* img
+{
+    max-width: 100px; 
+    max-height: 100px;  
+    display: block 
+}
+a{
+    display:block /* هنا تجعل العنصر في سطر لحالو */
+
+}
+
+/* span{
+    display: block;   
+}
+p{
+    display: inline /* هنا تجعل العنصر في نفس السطر */
+
+}
+
+/* h4{
+    display:none
+}
+
+
+
+/* height خواص */
+
+/* div.height {
+    background-color: red;
+    min-width: 100px;
+    max-width: 200px;
+    min-height: 100px;
+    /* اقل قيمة للارتفاع تكون 100 */
+
+/*   max-height: 500px/*اقصى قيمة للعرض يكون 500*/
+
+/* الافضل ان نكتب الماكسيمم و المينمم في كلشي */
+
+/*}
+
+/* Width خواص */
+
+/* div.width{
+   
+    background: red;
+    width: 600px
+}
+div.child{
+    
+    background-color: dimgrey;
+    min-width: 100px;/* اقل قيمة لعرض تكون 100 */
+
+/*  max-width: 500px; /*اقصى قيمة للعرض يكون 500*/
+
+/*}
+  
+
+
+
+/* padding خواص */
+
+/* div{
+    background-color: aqua;
+    padding:7px 10px 0 0 ; /* Top Right bttom Left */
+
+/* هوامش داخلية */
+
+/* ممكن نعمل هوامش داخلية فوق وبس او نحت وبس او ع الشمال وبس */
+
+/* }
+
+
+/* Margin خواص */
+
+/* *{
+    margin: 0px;
+/* عمل اعادة تعيين للصفحة */
+
+/*  background-color: 0
+}
+ /* div{
+    background-color: aqua;
+    color: black;
+    text-align: center;
+   margin: 10px 15px 10px 25px ;/* الهوامش الخارجية */
+
+/* Top Right bttom Left */
+
+/* لو بدي اعمل هوامش خلجية فقط زي الحدود بعمل */
+
+/*  width: 400px;
+    margin: 10px auto ; /* بشكل تلقاآي امتصفح حينسق الديف */
+
+/*}
+
+
+
+
+/* Border خواص */
+
+/* div{
+    background-color:#f5b7b7;
+    margin: 10px;
+    padding: 10px;
+    border-width: 4px 8px 4px 8px ; /* حجم الحدود */
+
+/* Top Right bttom Left */
+
+/* border-style:solid dotted dashed double ; /* نوع الحدود */
+
+/* Top Right bttom Left */
+
+/*  border-color:#6d6b67 #4e3399 cadetblue aliceblue ; /* لون الحدود */
+
+/* Top Right bttom Left */
+
+/* هنا الحدود بشكل عام يعني ممكن نخلي الحد يأتي فقط فوق او على الجنب */
+
+/* border: 5px solid #6d6b67; */
+
+/*  font-style: italic;
+    font-size: 19px;
+    text-align: center;
+    font-weight: 700
+}
+
+
+
+
+
+
+
+/* Box-Model  */
+
+/* هنا بنصنع بوكس وبيكون جواتو حجات ثانية */
+
+/*div.Continer {
+   background-image: url('../image/3dlat.com_140364490013.jpg');
+    padding: 10px;
+    width: 800px;
+    margin: 10px auto;
+    padding: 10px;
+}
+div.Child
+{
+    background-color: #7671eb;
+    color: aliceblue;
+    margin: 10px;
+    padding: 10px;
+    width: 500px
+}
+p{
+    background-color: rgba(101, 203, 37,0.4);
+    margin: 10px;
+    padding: 10px;
+    width: 500px
+}
+
+
+
+/* Unorder List خواص */
+
+/* ul {
+    list-style: disc;
+    /* هنا بدل النقط نضع الي بدنا ياه */
+
+/*  list-style-position: inside;
+    /* هنا موضع النقطة هل هي في الداخل ام في الخارج */
+
+/*    list-style-image:url('../image/3dlat.com_140364490013.jpg'); /* نضع صورة بدل النقط */
+
+/*    list-style: disc inside url('../image/3dlat.com_140364490013.jpg') 
+}
+ul li {
+    border: 1px solid #DDD
+/* هنا لتحديد خواص القواآم */
+
+/* }
+ 
+
+
+
+
+/* Links */
+
+/*
+a {
+    color: blue;
+    text-decoration: none
+}
+
+a:hover {
+    color: green;
+    text-decoration: underline;
+    font-weight: bolder;
+    font-size: 20px;
+    /* يستعمل الهافر عندما ندوس ع الرابط تضهر هده الصفات */
+
+/*}
+/*
+a:active {
+    color: red;
+    text-decoration: line-through;
+    font-weight: bolder;
+    font-size:2em
+        /* هنا عندما نضغط ضغطة مطولة تظهرهده الصفات */
+
+/*}
+
+
+
+
+
+
+/* font خواص */
+
+/*
+p {
+    text-transform: capitalize;
+    font-family: "Courier New", Courier, monospace;
+    /* يوخد موقع w3 بيعطينا كل عاآلات الخط 8 */
+
+/* font-style: italic;
+    /* نوع الخط ماآل */
+
+/*  font-size:2em;
+    /* pxحجم الخط 16 يساوي  %100 وايضا كل em  واحد  يساوي 16*/
+
+/* حجم الخط */
+
+/*  background: #d0d0e2;
+
+  /*  letter-spacing: -2px;
+  /*  font-weight: bold;
+ /*   text-indent: 300px
+/*}
+
+
+
+
+
+
+/* div خواص */
+
+/*
+div {
+   
+    color: black;
+    background-color: rgba(114, 111, 128, 0.4); // تستخدم لتعين الشفافية 
+    height:600; الطول 
+    width: 450px; العرض
+    background-image: url('../image/3dlat.com_140364490013.jpg');  هنا بنجيب صورة للخلفية ونلاحظ انو طعنا ع ملف اخر 
+    background-repeat: repeat; تستخدم لتكرار الصورة من الاتجاه الافقي و العمودي
+    background-attachment: fixed; هنا الفكست انو الصورة تبقة ثابتة لما ننزل بعكس ال السكورل
+    border:1px; الحدود 
+    background-position: center center; هنا موقع الصورة في النص
+    background: black url('../image/3dlat.com_140364490013.jpg') repeat fixed center 50% 50% هناا اختصار لكل اشي
+   
+   
+}
+
+
+
+
+
+
+
+/* Text خواص */
+
+/* 
+div {
+    width: 650px;
+    color: black;
+    /*Clor*/
+
+/* background-color: darkgrey;
+    direction: ltr;
+    /*text Direcation يستخدم للكتوبة من اليمين الى اليسار*/
+
+/*   letter-spacing: -2px /* تجعل الحروف قريبة من بعض */
+
+/*المسافة  بين الحروف */
+
+/*  margin: 10px 0;
+    padding: 10px;
+    line-height: 30px;
+    /* يستخدم في التباعد بين السطور ويمكن ان نستخدم البيكسل والنسبة المآوية و الي ام */
+
+/*    text-align: left;
+    /*  محاداة النص اي ان النص يأني الى اليمين او اليسار دون ان يعطل الكتابة */
+
+/*    text-decoration: none;
+    /* خط تحت الفقرة */
+
+/*    text-indent: 250px ;/* هنا لا يبدأ الكلام من اول الصفحة */
+
+/*   word-spacing: 1px /* المسافة بين الكلمات */
+
+/*}
+
+/*div.a {
+
+    background-color: blue;
+    direction: rtl;
+    line-height: 230%;
+    text-align: right
+} 
+
+a {
+    text-decoration: line-through;
+    /* توضع خط على الكلمة */
+
+/*    display:block
+/* over line تضع خط فوق الكلمة */
+
+/* span.s {
+    color: red;
+    text-decoration: underline /* تضع خط تحت الكلمة */
+
+/* }
+span.old{
+    text-decoration: line-through;
+    color: red;
+    
+}
+span.new{
+    color: blue;
+    text-decoration: underline;
+
+}
+ 
+span.Cap{
+    text-transform:lowercase /* هنا نستطيع التحكم في النص من  خلال جعل اول حرف من كل كلمة كبير ونستطيع ان نجعل كل الحروف صغيرة عن طريق الور كيس وايضا نستطيع ان نجعل كل الحروف كبيرة عن طريق الابر كيس */
+
+/* } */

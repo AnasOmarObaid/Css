@@ -1,0 +1,592 @@
+/* Start Main */
+
+.continer { width: 1000px; margin: auto}
+ 
+.clearFix { clear: both}
+
+/**** End Main ****/
+
+/* Start Header */
+
+.header .slaider {
+    background: #eee;
+    height: 600px;
+    background-image: url('../image/about-us-1.png');
+    background-size: cover;
+    /* يستحسن ان نستخدم في كل  مرة */
+}
+
+.header .slaider .intro h2 {
+    margin: 20px 0 10px 20;
+    border-top: 4px solid #fff;
+    border-bottom: 4px solid #fff;
+    font-size: 35px;
+    padding: 5px 5px 10px 30px
+}
+
+.header .slaider .intro button {
+    background: none;
+    margin-top: 15px;
+    width: 200px;
+    color: #fff;
+    padding: 15px;
+    margin-left: 100px;
+    font-weight: 700;
+    font-size: 18px
+}
+
+.header .slaider .intro {
+    padding-left: 40px;
+    padding-top: 50px;
+    height: 600px;
+    text-align: left;
+    color: white;
+    width: 440px;
+   
+}
+
+.header .navbar {
+    background-color: #252f31;
+    color: white;
+    overflow: hidden;
+
+}
+
+.header .navbar h2 {
+    float: left;
+    text-transform: uppercase;
+
+}
+
+.header .navbar h2 span {color: #2ecc71}
+
+
+.header .navbar ul {
+    list-style: none;
+    padding-left: 0;
+    overflow: hidden;
+    float: right;
+}
+
+.header .navbar ul li {
+    float: left;
+    padding: 10px;
+    font-size: 17px;
+}
+
+.header .navbar ul li a {
+    color: white;
+    text-decoration: none
+}
+
+.header .navbar ul li .active a,
+.header .navbar ul li a:hover {color: #2ecc71}
+ 
+
+/* End Header */
+
+/* Start Features */
+
+.Features {
+    overflow: hidden;
+    padding-top: 50px;
+    padding-bottom: 35px
+}
+
+.Features .feat {
+    float: left;
+    width: 33.333333%;
+    height: 200px;
+
+}
+
+.Features .feat h2 {
+    text-transform: capitalize;
+    color: #555
+}
+
+.Features .feat p {
+    line-height: 1.7;
+    color: #888;
+    margin: 15px
+}
+
+/*  End Features */
+
+/* Start About My */
+
+.aboutMy {background-color: #f2f2f2f2; overflow: hidden}
+
+.aboutMy .img {float: left; width: 40%}
+
+.aboutMy .img img { width: 100%; height: 750px;}
+
+.aboutMy .inf {
+    float: left;
+    width: 60%;
+    overflow: hidden
+}
+
+.aboutMy .inf h2 {color: #555;margin: 40px 0 20px 70px;}
+
+.aboutMy .inf p {
+    color: #777;
+    line-height: 1.7;
+    margin: 30px 0 20px 70px
+}
+
+.aboutMy .inf p:last-of-type {margin-top: 50px}
+
+.aboutMy .inf .hobbis {
+    margin: 20px 0 0 40px;
+    overflow: hidden;
+
+}
+
+.aboutMy .inf .hobbis .content {
+    float: left;
+    width: 50%;
+    min-height: 100px;
+    overflow: hidden;
+    margin-top: 30px
+}
+
+.aboutMy .inf .hobbis .content .icon {
+    float: left;
+    width: 12%;
+    margin-right: 5%
+}
+
+.aboutMy .inf .hobbis .icon img {
+    max-width: 100%;
+    margin: 80px 10px 0 0;
+        
+}
+
+.aboutMy .inf .hobbis .content .text {
+    float: left;
+    width: 83%;
+    margin: 0 5px auto -15px
+}
+
+.aboutMy .inf .hobbis .content .text h3 {color: #555;}
+
+.aboutMy .inf .hobbis .content .text p {margin-top: 3px}
+
+.aboutMy .text {
+    text-align: center
+}
+
+/* End About My */
+
+/* Start My Skills */
+
+.My-skill {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow: hidden
+}
+.My-skill .skill,
+.My-skill .Prorages {
+    width: 50%;
+    float: left
+}
+
+.My-skill .skill h2 {color: #555}
+
+.My-skill .skill p {color: #777;line-height: 1.6}
+
+.My-skill .skill p:last-of-type {
+    color: #777;
+    line-height: 1.6;
+    margin-top: 20px
+}
+
+.My-skill .skill button {
+    margin-top: 17px;
+    background: none;
+    color: #2ecc71;
+    padding: 10px 30px 10px 30px;
+    font-size: 20px
+}
+
+.My-skill .skill button:hover {
+    border: 3px solid #2dcc70;
+}
+
+.My-skill .Prorages .tecninc {
+    margin-left: 60px;
+    margin-top: 40px
+}
+
+.My-skill .Prorages .tecninc h3 {
+    color: #555;
+    font-size: 25px;
+}
+
+
+.My-skill .Prorages .tecninc div {
+    background-color: #f2f2f2;
+    height: 25px
+}
+
+.My-skill .Prorages .tecninc div span {
+    background-color: #2dcc70;
+    height: 25px;
+    display: block;
+    text-align: right;
+    line-height: 25px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold
+}
+
+/* End My Skills */
+
+/* Start Resume */
+
+.resume {
+    background: #f2f2f2;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: center;
+    overflow: hidden;
+    margin-top: 50px;
+    margin-bottom: 50px
+}
+
+.resume h2 {
+    color: #555;
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-top: 0
+}
+
+
+.resume p {
+    line-height: 1.7;
+    color: #777;
+    padding: 10px
+}
+
+.resume button {
+    margin-top: 17px;
+    background: none;
+    color: #2ecc71;
+    padding: 10px 30px 10px 30px;
+
+    font-size: 20px
+}
+
+.resume button:hover {
+    border: 3px solid #2dcc70;
+}
+
+/* End Resume */
+
+/* Start My Ediaction */
+
+.My-edeaction {
+    padding-top: 15px;
+    padding-bottom: 30px;
+    overflow: hidden
+}
+
+.My-edeaction .exp {
+    padding-top: 75px;
+    width: 50%;
+    float: left;
+    margin-left: 8%
+}
+
+.My-edeaction .main {width: 42%; float: left}
+
+.My-edeaction .exp .raphic h3 {
+    color: #555;
+    text-transform: uppercase;
+    font-size: 25px;
+    margin: 0 0 9px 0
+}
+
+.My-edeaction .exp .raphic p {
+    line-height: 1.6;
+    color: #777;
+    margin: 0 0 10px 0
+}
+
+.My-edeaction .exp .raphic button {
+    background-color: #2ecc71;
+    color: white;
+    font-weight: bold;
+    padding: 7px 14px 7px 14px;
+    margin: 0 0 20px 0
+}
+
+.My-edeaction .exp .raphic hr {
+    margin: 20px 20px 20px 3px;
+    background-color: #777;
+    height: 1px;
+    border: 0
+}
+
+
+.My-edeaction .exp .cit h3 {
+    color: #555;
+    text-transform: uppercase;
+    font-size: 25px;
+    margin: 100px 0 9px 0
+}
+
+.My-edeaction .exp .cit p {
+    line-height: 1.6;
+    color: #777;
+    margin: 0 0 10px 0
+}
+
+.My-edeaction .exp .cit button {
+    background-color: #2ecc71;
+    color: white;
+    font-weight: bold;
+    padding: 7px 14px 7px 14px;
+    margin: 0 0 20px 0
+}
+
+.My-edeaction .exp .cit hr {
+    margin: 20px 20px 20px 3px;
+    background-color: #777;
+    height: 1px;
+    border: 0
+}
+
+.My-edeaction .exp .dov h3 {
+    color: #555;
+    text-transform: uppercase;
+    font-size: 25px;
+    margin: 100px 0 9px 0
+}
+
+.My-edeaction .exp .dov p {
+    line-height: 1.6;
+    color: #777;
+    margin: 0 0 10px 0
+}
+
+.My-edeaction .exp .dov button {
+    background-color: #2ecc71;
+    color: white;
+    font-weight: bold;
+    padding: 7px 14px 7px 14px;
+    margin: 0 0 20px 0
+}
+
+.My-edeaction .exp .dov hr {
+    margin: 20px 20px 20px 3px;
+    background-color: #777;
+    height: 1px;
+    border: 0
+}
+
+.My-edeaction hr {
+    background-color: #999;
+    height: 1px;
+    border: 0;
+    margin: 90px 0 90px 0
+}
+
+.My-edeaction .main h2 {
+    color: #555;
+    font-weight: bold;
+    font-size: 28px;
+    text-transform: uppercase
+}
+
+.My-edeaction .main p {
+    color: #777;
+    line-height: 1.6;
+    padding-top: 10px
+}
+
+.My-edeaction .main p:last-of-type {margin-top: 25px}
+
+.My-edeaction .exp button:hover{cursor: pointer;width: 100px}
+
+/* End My Ediaction */
+
+/* Start Testemonials */
+
+.testemonials {
+    background: #f2f2f2;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center
+}
+
+.testemonials q {
+    color: #777;
+    font-size: 20px;
+    line-height: 1.7;
+    word-spacing: 2px;
+    margin-top: 0;
+    font-style: italic;
+    font-weight: 600
+}
+
+.testemonials h3 {font-size: 25px;color: #555}
+
+.testemonials span {color: #2ecc71;font-weight: 900}
+    
+.testemonials ul {
+    list-style: circle;
+    padding-left: 0;
+    text-align: center
+}
+
+.testemonials ul li {
+    width: 15px;
+    height: 15px;
+    border: 3px solid #2ecc71;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 30px
+}
+
+.testemonials ul .activ,
+.testemonials ul :hover { background-color: #2ecc71}
+
+/* End Testemonials */
+
+/* Start Portofolio */
+
+.portofolio {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+
+.portofolio h2 {
+    text-align: center;
+    color: #555;
+    margin-top: 30px;
+    text-transform: uppercase
+}
+
+.portofolio p {
+    text-align: center;
+    color: #777;
+    line-height: 1.6;
+    margin: 10px 0 70px 0
+}
+
+.portofolio .Our-Work > div {
+    float: left;
+    width: 33.333333%;
+    margin-bottom: 40px
+}
+
+.portofolio .Our-Work > div img { width: 92%; margin-left: 30px;}
+
+.portofolio .Our-Work img { border-radius: 40px; margin-right: 40px}
+
+
+.portofolio .Our-Work img:hover {
+    cursor: pointer;
+    padding-left: 5px;
+    background-image: #fff;
+    background-color: #fff;
+    box-shadow: 15px 15px 6px #191e22
+}
+
+/* End Portofolio */
+
+/* Start Contact My */
+
+.cntact-My {
+    background: #252f31;
+    overflow: hidden;
+    padding-top: 70px;
+    padding-bottom: 70px
+}
+
+.cntact-My h2 {
+    color: #fff;
+    margin-left: 32px;
+    text-transform: uppercase;
+    padding-bottom: 15px
+}
+
+.cntact-My p {
+    color: #6a6e71;
+    margin-left: 32px;
+    line-height: 1.8;
+    font-weight: 700;
+    font-size: 21px
+        
+}
+
+.cntact-My .inf { width: 40%;float: left}
+
+
+.cntact-My .form {
+    width: 50%;
+    float: left;
+    margin-left: 10%;
+    margin-top: 45px;
+
+}
+
+.cntact-My .form label {
+    display: block;
+    margin-bottom: 10px;
+    color: #d1d6da;
+    font-size: 19px
+}
+
+.cntact-My .form input {
+    display: block;
+    margin-bottom: 10px;
+    padding: 4px 350px 11px 4px;
+    background-color: #6a6e71;
+    border: 1px solid #6a6e71;
+    color: #fff;
+    font-size: 21px;
+    font-weight: bold
+}
+
+.cntact-My .form input[type="submit"] {
+    color: #fff;
+    background-color: #191e22;
+    font-weight: 900;
+    padding: 20px 25px;
+    border: 1px solid #252f31;
+    margin-top: 10px
+}
+
+.cntact-My .form input[type="submit"]:hover{cursor: pointer}
+
+
+/* End Contact My */
+
+/* Start Footer */
+
+.footer {
+    background: #191e22;
+    color: #6a6e71;
+    padding: 30px 50px;
+    text-align: center
+}
+
+.footer .icon ul {
+    list-style: none;
+    padding-left: 0;
+    text-align: center
+}
+
+.footer .icon ul li{display: inline-block}
+.footer .icon ul li img {width: 50px}
+.footer .icon ul li img:hover {width: 70px;cursor: pointer}
+
+
+.footer span {font-size: 19px}
+
+/* End Footer */

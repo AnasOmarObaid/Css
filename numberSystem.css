@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    margin-top: -30px
+}
+
+.start-fotor {
+
+    position: relative;
+    width: 629px;
+    background-color: #333;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 120px;
+    top: 122px
+}
+
+.start-fotor span {
+    position: absolute;
+    left: 589px;
+    top: 50px;
+    font-size: 24px;
+    color: aliceblue
+}
+
+.continer {
+    min-width: 900px;
+    min-height: 650px;
+    background-image: url("../image/ForDesign.jpg");
+    background-size: cover;
+    margin-top: 0
+}
+
+/* Start Simple System */
+
+/* Start Fixed Menu*/
+
+.fixed-menu {
+    background-color: #312d2d;
+    width: 100%;
+    position: fixed;
+    height: 160px;
+    top: -160px;
+    left: 0;
+    border-radius: 7px;
+    z-index: 33;
+}
+
+.fixed-menu .unorder {
+    margin: 27px 450px;
+    background-color: #fbfbfb;
+    height: 64%;
+    border-radius: 9px;
+    list-style: circle;
+    width: 45%;
+    list-style-position: inside;
+    list-style: limegreen;
+    list-style-type: decimal;
+}
+
+.fixed-menu .unorder li {
+    float: left;
+    padding-top: 43px;
+    padding-left: 155px;
+    font-size: 19px;
+    cursor: pointer
+}
+
+.fixed-menu .unorder li.selctor {
+    color: #ef0000;
+    text-decoration: underline
+}
+
+.fixed-menu .fa-gear {
+    content: "\f013";
+    position: relative;
+    left: 1655px;
+    top: 4px;
+    background-color: #333;
+    font-size: 34px;
+    color: white;
+    padding: 11px;
+    cursor: pointer
+}
+
+/* Start System */
+
+.simple-system {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 50%;
+    height: 579px;
+    margin: -800px auto;
+    border: 8px solid #ccc;
+    border-radius: 9px;
+    z-index: 22;
+}
+
+/* Start h3 */
+
+.simple-system h3 {
+    background-color: #333;
+    padding: 39px 33px 70px 320px;
+    font-size: 31px;
+    font-weight: 800;
+    color: aliceblue;
+    display: none
+}
+
+/* Start Input Number */
+
+.simple-system .start-simple .number-simple {
+    padding-top: 40px;
+    margin-top: 30px;
+    margin-left: 17px;
+    padding: 15px 65px 15px 25px;
+    font-size: 17px;
+    display: none
+}
+
+/* Start Span */
+
+.simple-system span {
+    margin: 30px;
+    font-size: 40px;
+    display: none
+}
+
+/* Start Selected System */
+
+.simple-system .start-simple .select-simple-style {
+    padding-top: 40px;
+    margin-top: 30px;
+    margin-left: 17px;
+    padding: 15px 65px 15px 25px;
+    font-size: 17px;
+    cursor: pointer;
+    display: none
+}
+
+/* Start Button */
+
+.simple-system .start-simple .button-simple {
+    display: block;
+    margin-left: 279px;
+    padding: 10px 77px 10px 77px;
+    margin-top: 52px;
+    font-size: 18px;
+    cursor: pointer;
+    display: none
+}
+
+/* Start Result */
+
+.simple-system .start-simple .result-simple {
+    margin-top: 60px;
+    margin-left: 17px;
+    padding: 20px 220px 32px 44px;
+    display: none;
+    font-size:16px;
+}
+
+/* End Simple System */
+
+/* Start Partical System */
+
+.Partical-system {
+    position: relative;
+    top: -30px;
+    left: 0px;
+    width: 50%;
+    height: -3%;
+    height: 579px;
+    margin: 30px auto;
+    border: 8px solid #ccc;
+    display: none;
+    border-radius: 9px
+}
+
+/* Start h3 */
+
+.Partical-system h3 {
+    background-color: #333;
+    padding: 39px 33px 70px 320px;
+    font-size: 31px;
+    font-weight: 800;
+    color: aliceblue
+}
+
+/* Start Selected System*/
+
+.Partical-system .start-Partical .select-Partical-style {
+    padding-top: 40px;
+    margin-top: 30px;
+    margin-left: 136px;
+    padding: 15px 65px 15px 25px;
+    font-size: 17px;
+    cursor: pointer
+}
+
+.Partical-system .start-Partical .select-Partical-style-system {
+    padding-top: 40px;
+    margin-top: 30px;
+    margin-left: 25px;
+    padding: 15px 65px 15px 25px;
+    font-size: 17px;
+    cursor: pointer
+}
+
+/* Start Span*/
+
+.start-Partical span {
+    margin: 30px;
+    font-size: 40px;
+}
+
+/* Start Number Input */
+
+.Partical-system .start-Partical .number-Partical {
+    padding-top: 40px;
+    margin-top: 55px;
+    margin-left: 29px;
+    padding: 15px 65px 15px 25px;
+    font-size: 17px
+}
+
+/* Start Button */
+
+.Partical-system .start-Partical .button-Partical {
+    display: block;
+    margin-left: 279px;
+    padding: 10px 77px 10px 77px;
+    margin-top: 80px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-left: 296px
+}
+
+/* Start Result */
+
+.Partical-system .start-Partical .result-Partical {
+    margin-top: 37px;
+    margin-left: 161px;
+    font-size: 17px;
+    padding: 15px 65px 15px 25px;
+}
